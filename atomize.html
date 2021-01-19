@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <link href="https://fonts.googleapis.com/css?family=Cardo&display=swap" rel="stylesheet">
+        <title>Shinnosuke Yasuda｜Atomize</title>
+        <link rel = "stylesheet" href="header.css">
+        <link rel = "stylesheet" href="visiblemusic.css">
+        <meta http-equiv="content-type" charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+
+        <meta property="og:image" content="https://shinnosukeyasuda.com/images/ogpimage.png" />
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+    </head>
+
+
+    <body>
+        <canvas id='canv' width="100rem" height="100wh"></canvas>
+
+        <header>
+
+            <div class="title"><a href="https://shinnosukeyasuda.com/">
+                <h1 id="name">Shinnosuke Yasuda</h1>
+                <h2 id="major">Engineering with Art</h2>
+                </a></div>
+
+
+            <div class="btn">
+                <div class="btn-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+
+            <ul>
+                <div class="nav-list">
+                    <li><a href="https://shinnosukeyasuda.com/">Works</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </div>
+            </ul>
+
+        </header>
+        <div class="contents">
+
+            <h1 id="worktitle">Atomize</h1>
+
+            <video preload="none" controls >
+                <source src="images/atomizeplay.MOV" type="video/quicktime" />
+            </video>
+
+            <div class="description">
+                <h2>説明</h2>
+                <h3>Atomizeは将棋を２階建てにしたようなゲームです。<br>
+                本来ボードの上にコマが置いてあるというのが将棋やチェスをはじめとするボードゲームの常識です。ボードゲームには長い歴史がありますが、地球上に重力がある限り、それは覆すことができませんでした。Atomizeは重力を取り除いたバーチャルな空間にて行われるので、コマが3Dの動きができるようになっています。</h3>
+                <div class="yoko">
+                    <img src="images/help1.jpg" id="leftimg">
+                    <img src="images/help2.jpg" id="rightimg">
+                </div>
+                <h3>
+                例えば、あるコマは「右斜め前上」という方向に進むことができたりします。動画を注意深く観てみると、緑色に光っているコマがあるかと思いますが、それが2階にいるコマです。<br>
+                コマが動ける方向が増えたことによって、動きのバリエーションが増え、かなり頭を使うボードゲームになっています。頭を使うことが好きな人はハマりやすく、UC Berkeley生の間でも人気が出たゲームです。<br><br>
+                Atomizeにはもう一つ大きな特徴があります。Atomizeでは自分でコマの能力と配置を決めてチームを編成することができます。
+                </h3>
+                <img src= "images/editteam.jpg" id="editteam">
+                <h3>
+                上の方にある矢印が書かれたボタンは、コマに能力を与えるボタンです。矢印の進行方向にコマは進めるようになりますが、使いやすい動きの能力ほど、コストが高く設定されています。例えば赤い矢印の能力はそれぞれ将棋で言う飛車と角行の能力で、紫の矢印が桂馬の能力です。強い能力なのでコストは高くかかってしまいます。また、取った相手のコマは将棋同様に自分のコマとして使えるので、強い味方を取られてしまうと形成が不利になります。自陣の2列にはいくらでもコマを作れるので、少数精鋭で攻めるのか、数で攻めて自分の弱いコマと相手の強いコマを交換させて攻めるのかなど、戦術も多岐にわたります。<br>一つのコマに付けられる能力は3つまでになります。<br><br>
+               <a href= "https://itunes.apple.com/jp/app/atomize/id1271049643?mt=8">AppStoreから遊べます</a>
+                </h3>
+                
+            </div>
+
+        </div><!--contents-->
+
+    </body>
+</html>
+<script src=menu.js></script>
+<script src="spark.js"></script>

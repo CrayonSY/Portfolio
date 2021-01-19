@@ -1,0 +1,42 @@
+:root{
+    --fontcolor: #555555;
+    --firstcolor: #f6f6f6;
+    --secondcolor: #000077;
+    --thirdcolor: #af7f11;
+}
+
+
+
+@media screen and (max-width: 767px){
+
+    .contents {
+        width: 80rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 10rem;
+    }
+    .contents h1{
+        font-size: 9rem;
+    }
+    .contents h2{
+        font-size: 5rem;
+    }
+
+}
+@media screen and (min-width: 768px){
+
+    .contents {
+        width: 84rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .contents h1{
+        font-size: 6rem;
+    }
+    .contents h2 {
+        font-size: 4.5rem;
+    }
+
+}

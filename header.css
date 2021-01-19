@@ -1,0 +1,225 @@
+:root{
+    --fontcolor: #555555;
+    --firstcolor: #f6f6f6;
+    --secondcolor: #000077;
+    --thirdcolor: #af7f11;
+}
+html:not(#canv){
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body:not(#canv){
+    font-family: 'Cardo', serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 100;
+    color: var(--fontcolor);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+header{
+    position: relative;
+    width: 100rem;
+    max-width: 1000px;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+body{
+    background-color: var(--firstcolor);
+    margin: 0;
+}
+
+.title a {
+	text-decoration: none;
+}
+.title h1, .title h2{
+    text-decoration: none;
+    color: var(--fontcolor);
+    background: -webkit-linear-gradient(-70deg, #002, #008, #004, #008, #002, #006, #005, #008, #007, #001, #002, #003);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+header ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1%;
+    position: relative;
+    color: var(--fontcolor);
+}header ul li a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 4px;
+    background-color: var(--secondcolor);
+    transition: .3s;
+}.nav-list{
+    white-space: nowrap;
+}header ul li a:hover::after {
+    width: 100%;
+}header ul li {
+    font-weight: bold;
+    margin-bottom: 0;
+}header li {
+    display: inline;
+    text-align: center;
+    white-space: nowrap;
+}header ul {
+    position: absolute;
+    float: right;
+}
+
+
+
+@media screen and (max-width: 767px){
+    
+    header h1 {
+        font-size: 7rem;
+        margin: 0;
+        margin-top: 6.5rem;
+        margin-left: 0rem;
+        padding: 0;
+        text-align: left;
+        line-height: 8rem;
+    }
+    header h2{
+        font-size: 5rem;
+        margin-left: 0rem;
+        margin-top: 0;
+        margin-bottom: 4rem;
+    }
+
+    
+    div.btn{
+        position:absolute;
+        top: 12rem;
+        right: 0rem; 
+        background: transparent;
+        width: 6rem;
+        height: 6rem;
+        cursor: pointer;
+    }
+
+    div.btn-icon{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+    }
+
+    div.btn-icon span{
+        display: block;
+        height: 4px;
+        width: 100%;
+        background: rgba(0,0,0,0.8);
+        transition: .35s ease-in-out;
+    }
+
+    div.btn-icon span:nth-of-type(1){
+    }
+    div.btn-icon span:nth-of-type(2){
+    }
+    div.btn-icon span:nth-of-type(3){
+    }
+
+    .open div.btn-icon span:nth-of-type(1){
+        transform: translateY(2rem) rotate(315deg);
+    }
+    .open div.btn-icon span:nth-of-type(2){
+        width: 0;
+        left: 50%;
+    }
+    .open div.btn-icon span:nth-of-type(3){
+        transform:translateY(-2rem) rotate(-315deg);
+
+    }
+
+    .nav-list{
+        display: grid;
+        position: fixed;
+        top: 0;
+        width: 40rem;
+        padding-top: 24rem;
+        padding-bottom: 100vh;
+        left: -40rem;
+        margin:0;
+        background-color: rgba(20,20,100,0.8);
+        color: white;
+        text-align: left;
+        font-size: 6rem;
+        z-index: 1000;
+    }
+    .nav-list li{
+        text-align: left;
+        padding-left: 5rem;
+        padding-top: 0;
+        padding-bottom: 7vh;
+    }
+    .nav-list a{
+	   color: white;
+    }
+    header {
+        border-bottom: solid 1px black;
+        width: 81rem;
+        margin-left: 10rem;
+    }
+    
+}
+@media screen and (min-width: 768px){
+        
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            margin-top: 3rem;
+            margin-left: 6rem;
+            padding: 0;
+            left: 0;
+            text-align: left;
+            line-height: 3.5rem;
+        }
+        header h2{
+            font-size: 2.5rem;
+            margin-left: 6rem;
+            margin-top: 0;
+        }
+        
+        header li {
+            font-size: 3rem;
+            display: inline;
+            text-align: center;
+            margin-right: 2rem;
+            white-space: nowrap;
+        }header ul {
+            position: absolute;
+            float: right;
+            margin: 0;
+            top: 6.5rem;
+            right: 4rem;
+            width: 38rem;
+        }
+}
+
+@media screen and (max-width: 767px){  /*スマホ*/
+    html{
+        font-size: 1vw;
+    }
+}
+@media screen and (min-width: 768px){
+
+    @media screen and (max-width: 1000px){
+        html{
+            font-size: 1vw;
+        }
+    }
+}
+@media screen and (min-width: 1001px){
+    html{
+        font-size: 10px;
+    }
+}

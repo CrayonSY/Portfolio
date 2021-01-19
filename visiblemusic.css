@@ -1,0 +1,119 @@
+:root{
+    --fontcolor: #555555;
+    --firstcolor: #f6f6f6;
+    --secondcolor: #000077;
+    --thirdcolor: #af7f11;
+}
+body:not(#canv) {
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+.contents {
+    max-width: 1000px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#canv{
+    position: fixed;
+    z-index: -10000;
+    width: 100rem;
+    height: 100vh;
+}
+
+.yoko{
+    display: flex;
+}
+
+@media screen and (max-width: 767px){
+
+    #worktitle {
+        font-size: 8rem;
+        margin-left: 10rem;
+        margin-top: 12rem;
+        margin-bottom: 3rem;
+    }
+    video{
+        width: 80rem;
+        height: 50rem;
+        margin-left: 10rem;
+        border: solid 1px black;
+    }
+
+    .description h2{
+        margin-top: 12rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-bottom: 4rem;
+        font-size: 6rem;
+    }
+    .description h3{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-bottom: 12rem;
+        font-size: 4rem;
+        width: 80rem;
+    }
+
+    .yoko{
+        display: block;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    .yoko img{
+        width: 80rem;
+    }
+    #editteam {
+        width: 80rem;
+        margin-left: 10rem;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+
+    #worktitle {
+        font-size: 5rem;
+        margin-left: 6rem;
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+    }
+
+    video{
+        width: 88rem;
+        height: 55rem;
+        margin-left: 6rem;
+    }
+
+    .description h2{
+        margin-top: 8rem;
+        margin-left: 6rem;
+        margin-right: 6rem;
+        margin-bottom: 3rem;
+        font-size: 3.5rem;
+    }
+    .description h3{
+        margin-left: 6rem;
+        margin-right: 6rem;
+        margin-bottom: 8rem;
+        font-size: 2.5rem;
+        width: 88rem;
+    }
+    .yoko{
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+    .yoko img{
+        width: 43rem;
+    }
+    #leftimg{
+        margin-right: 2rem;
+    }
+    #editteam {
+        width: 88rem;
+        margin-left: 6rem;
+    }
+}

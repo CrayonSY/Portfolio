@@ -1,0 +1,138 @@
+:root{
+    --fontcolor: #000000;
+    --firstcolor: #f6f6f6;
+    --secondcolor: #000077;
+    --thirdcolor: #af7f11;
+}
+body:not(#canv) {
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+.contents {
+    max-width: 1000px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#canv{
+    position: fixed;
+    z-index: -10000;
+    width: 100rem;
+    height: 100vh;
+}
+.tags{
+    display: flex;
+}
+.tags:nth-child(1){
+    margin-right: 10%;
+}
+
+
+@media screen and (max-width: 767px){  /*スマホ*/
+    #sculpturetop {
+        width: 35rem;
+        transform: translateX(50rem);
+    }
+
+    .elements{
+        width: 80rem;
+        margin: 10rem;
+    }
+    tr, th{
+        display: block;
+    }
+    .element {
+        width: 80rem;
+        margin-bottom: 10rem;
+    }
+    .element img{
+        width: 80rem;
+        height: 54rem;
+        margin-bottom: 4rem;
+        border-bottom: solid 3px #666666;
+        border-right: solid 3px #666666;
+        object-fit: cover;
+        border-radius: 5rem;
+    }
+    .element h3, .element h4{
+        margin: 0;
+        text-align: left;
+        line-height: 8rem;
+    }
+    .element h3{
+        font-size: 6.5rem;
+        color: var(--fontcolor);
+    }
+    .element h4{
+        font-size: 5rem;
+    }
+    #makingnow{
+        font-size: 5.6rem;
+        margin-left: 10rem;
+        margin-bottom: 25rem;
+    }
+    #compliance {
+        width: 80rem;
+        margin: 10rem;
+        font-size: 4rem;
+    }
+
+}
+@media screen and (min-width: 768px){
+    .elements{
+        width: 92rem;
+        margin: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .element {
+        width: 41rem;
+        margin: 2.5rem;
+        padding-bottom: 4rem;
+    }
+    .element img{
+        width: 41rem;
+        height: 28rem;
+        margin-bottom: 2rem;
+        border-bottom: solid 3px #666666;
+        border-right: solid 3px #666666;
+        border-radius: 3rem;
+        object-fit: cover;
+    }
+    .element img:hover{
+        transform: scale(1.05);
+    }
+    .element h3, .element h4{
+        margin: 0;
+        text-align: left;
+        margin-left: 2.5rem;
+        line-height: 3rem;
+    }
+    .element h3{
+        font-size: 2.5rem;
+        color: var(--fontcolor);
+    }
+    .element h4{
+        font-size: 2rem;
+    }
+    #makingnow{
+        font-size: 4rem;
+        margin-left: 4rem;
+        margin-bottom: 20rem;
+    }
+    #compliance {
+        width: 92rem;
+        margin: 4rem;
+        font-size: 2rem;
+    }
+}
+html, body { 
+    min-height: 100%; 
+}
+
+a{
+    text-decoration: none;
+}
