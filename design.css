@@ -29,6 +29,9 @@ body:not(#canv) {
 .tags:nth-child(1){
     margin-right: 10%;
 }
+th a img{
+    object-fit: contain;
+}
 
 
 @media screen and (max-width: 767px){
@@ -57,7 +60,6 @@ body:not(#canv) {
         margin-bottom: 0rem;
         border-bottom: solid 3px #666666;
         border-right: solid 3px #666666;
-        object-fit: cover;
         border-radius: 5rem;
     }
     .element h3{
