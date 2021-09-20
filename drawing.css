@@ -54,6 +54,7 @@ body:not(#canv) {
         width: 80rem;
         height: 52.8rem;
         margin-bottom: 4rem;
+        object-fit: contain;
     }
     .element h3, .element h4{
         margin: 0;
@@ -91,6 +92,7 @@ body:not(#canv) {
             width: 41rem;
             height: 27.066rem;
             margin-bottom: 2rem;
+            object-fit: contain;
         }
         .element h3, .element h4{
             margin: 0;
