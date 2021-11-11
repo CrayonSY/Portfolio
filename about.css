@@ -30,7 +30,7 @@ body:not(#canv) {
         font-size: 8rem;
         margin-left: 10rem;
         margin-top: 12rem;
-        margin-bottom: 3rem;
+        margin-bottom: 7rem;
     }
 
     .spec {
@@ -43,12 +43,18 @@ body:not(#canv) {
         border-radius: 50%;
     }
     .spec h3{
-        margin-top: 0;
-        width: 80rem;
-        margin-right: 10rem;
-        font-size: 5.5rem;
+        width: 85rem;
+        margin: 0 5rem 0 0;
+        font-size: 4.7rem;
+        text-align: right;
+        transform: translate(-5rem, -7rem);
     }
 
+    #spec_flex{
+        display: flex;
+        align-items: baseline;
+    }
+    
     .contents h2{
         margin-top: 12rem;
         margin-left: 10rem;
@@ -56,7 +62,7 @@ body:not(#canv) {
         margin-bottom: 4rem;
         font-size: 6rem;
     }
-    .contents h3:not(#spec){
+    .contents h3:not(.spec h3){
         margin-left: 10rem;
         margin-right: 10rem;
         margin-bottom: 12rem;
@@ -64,9 +70,8 @@ body:not(#canv) {
         width: 80rem;
     }
     .contents li{
-        margin-left: 10rem;
-        margin-right: 10rem;
         width: 80rem;
+        list-style: none;
     }
 
     #Contact {
@@ -79,10 +84,15 @@ body:not(#canv) {
         text-align: center;
         line-height: 10rem;
     }
+
+    .pc{
+        display: none;
+    }
 }
 
 
 @media screen and (min-width: 768px){
+    
     #worktitle {
         font-size: 5rem;
         margin-left: 6rem;
@@ -102,11 +112,9 @@ body:not(#canv) {
         border-radius: 50%;
     }
     .spec h3{
-        margin-top: 6rem;
-        width: 40rem;
-        margin-right: 6rem;
-        font-size: 3.5rem;
-        line-height: 8rem;
+        width: 51rem;
+        font-size: 3rem;
+        line-height: 6rem;
     }
 
     .contents h2{
@@ -139,6 +147,8 @@ body:not(#canv) {
         text-align: center;
         line-height: 7rem;
     }
-
+    .sp{
+        display: none;
+    }
 }
 
