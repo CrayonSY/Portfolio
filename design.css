@@ -29,9 +29,6 @@ body:not(#canv) {
 .tags:nth-child(1){
     margin-right: 10%;
 }
-th a img{
-    object-fit: contain;
-}
 
 
 @media screen and (max-width: 767px){
@@ -48,7 +45,6 @@ th a img{
     }
     tr, th{
         display: block;
-        margin-bottom: 20rem;
     }
     .element {
         width: 80rem;
@@ -57,22 +53,30 @@ th a img{
     .element img{
         width: 80rem;
         height: 52.8rem;
-        margin-bottom: 0rem;
-        border-bottom: solid 3px #666666;
-        border-right: solid 3px #666666;
-        border-radius: 5rem;
-        background-color: white;
+        margin-bottom: 4rem;
+        object-fit: contain;
     }
-    .element h3{
+    .element h3, .element h4{
         margin: 0;
-        text-align: center;
+        text-align: left;
         margin-left: 2.5rem;
         line-height: 6rem;
-        font-size: 5.5rem;
+    }
+    .element h3{
+        font-size: 5rem;
         color: var(--secondcolor);
     }
+    .element h4{
+        font-size: 4rem;
+    }
+
 }
 @media screen and (min-width: 768px){
+
+    tbody {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     #worktitle {
         font-size: 5rem;
@@ -84,35 +88,34 @@ th a img{
         width: 92rem;
         margin: 4rem;
     }
-    .element{
+    .element {
         width: 41rem;
         margin: 2.5rem;
         padding-bottom: 4rem;
     }
     .element img{
-        width: 45rem;
-        height: 31rem;
-        margin-left: 5rem;
-        margin-top: 2rem;
+        width: 41rem;
+        height: 27.066rem;
         margin-bottom: 2rem;
-        border-bottom: solid 3px #666666;
-        border-right: solid 3px #666666;
-        border-radius: 3rem;
-        background-color: white;
+        object-fit: contain;
     }
-    .element img:hover{
-        transform: scale(1.05);
-    }
-    .element h3{
+    .element h3, .element h4{
         margin: 0;
         text-align: left;
         margin-left: 2.5rem;
-        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .element h3{
+        font-size: 2.5rem;
         color: var(--secondcolor);
     }
+    .element h4{
+        font-size: 2rem;
+    }
+
 }
-html, body { 
-    min-height: 100%; 
+html, body {
+    min-height: 100%;
 }
 #designphoto{
     margin-bottom: 0;
