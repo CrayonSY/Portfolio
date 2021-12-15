@@ -1,0 +1,126 @@
+:root{
+    --fontcolor: black;
+    --firstcolor: #f6f6f6;
+    --secondcolor: #000077;
+    --thirdcolor: #af7f11;
+}
+body:not(#canv) {
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+.contents {
+    max-width: 1000px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#canv{
+    position: fixed;
+    z-index: -10000;
+    width: 100rem;
+    height: 100vh;
+}
+.tags{
+    display: flex;
+}
+.tags:nth-child(1){
+    margin-right: 10%;
+}
+
+tbody {
+    display: flex;
+    flex-wrap: wrap;
+}   
+
+@media screen and (max-width: 767px){
+
+    p{
+        font-size: 3.5rem;
+        padding: 0 5rem;
+    }
+    #worktitle {
+        font-size: 8rem;
+        margin-left: 10rem;
+        margin-top: 12rem;
+        margin-bottom: 3rem;
+    }
+    
+    #boximg{
+        width: 100rem;
+    }
+
+    .elements{
+        width: 100rem;
+    }
+    .element{
+        width: 100rem;
+    }
+    .element img{
+        width: 90rem;
+        height: 90rem;
+        object-fit: contain;
+    }
+    .element h3, .element h4{
+        margin: 0;
+        text-align: left;
+        margin-left: 2.5rem;
+        line-height: 6rem;
+    }
+    .element h3{
+        font-size: 5rem;
+        color: var(--secondcolor);
+    }
+    .element h4{
+        font-size: 4rem;
+    }
+
+}
+@media screen and (min-width: 768px){
+
+    p{
+        font-size: 2rem;
+    }
+    #worktitle {
+        font-size: 5rem;
+        /*margin-left: 6rem;*/
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+    }
+
+    #boximg{
+        width: 100rem;
+    }
+    .elements{
+        width: 100rem;
+    }
+    .element img{
+        width: 45rem;
+        height: 45rem;
+        object-fit: contain;
+        margin: 2rem;
+    }
+    
+    .element h3, .element h4{
+        margin: 0;
+        text-align: left;
+        margin-left: 2.5rem;
+        line-height: 3rem;
+    }
+    .element h3{
+        font-size: 2.5rem;
+        color: var(--secondcolor);
+    }
+    .element h4{
+        font-size: 2rem;
+    }
+
+}
+html, body {
+    min-height: 100%;
+}
+#designphoto{
+    margin-bottom: 0;
+}

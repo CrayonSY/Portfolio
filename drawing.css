@@ -32,6 +32,9 @@ body:not(#canv) {
 
 
 @media screen and (max-width: 767px){
+    p{
+        font-size: 3.5rem;
+    }
     
     #worktitle {
         font-size: 8rem;
@@ -71,43 +74,53 @@ body:not(#canv) {
     }
 
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
 
-        #worktitle {
-            font-size: 5rem;
-            margin-left: 6rem;
-            margin-top: 8rem;
-            margin-bottom: 2rem;
-        }
-        .elements{
-            width: 92rem;
-            margin: 4rem;
-        }
-        .element {
-            width: 41rem;
-            margin: 2.5rem;
-            padding-bottom: 4rem;
-        }
-        .element img{
-            width: 41rem;
-            height: 27.066rem;
-            margin-bottom: 2rem;
-            object-fit: contain;
-        }
-        .element h3, .element h4{
-            margin: 0;
-            text-align: left;
-            margin-left: 2.5rem;
-            line-height: 3rem;
-        }
-        .element h3{
-            font-size: 2.5rem;
-            color: var(--secondcolor);
-        }
-        .element h4{
-            font-size: 2rem;
-        }
-    
+    p {
+        font-size: 2rem;
+    }
+
+    #worktitle {
+        font-size: 5rem;
+        margin-left: 6rem;
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+    }
+
+    .elements {
+        width: 92rem;
+        margin: 4rem;
+    }
+
+    .element {
+        width: 41rem;
+        margin: 2.5rem;
+        padding-bottom: 4rem;
+    }
+
+    .element img {
+        width: 41rem;
+        height: 27.066rem;
+        margin-bottom: 2rem;
+        object-fit: contain;
+    }
+
+    .element h3, .element h4 {
+        margin: 0;
+        text-align: left;
+        margin-left: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .element h3 {
+        font-size: 2.5rem;
+        color: var(--secondcolor);
+    }
+
+    .element h4 {
+        font-size: 2rem;
+    }
+
 }
 html, body { 
     min-height: 100%; 
