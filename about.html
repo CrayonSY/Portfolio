@@ -36,36 +36,28 @@
 
             <h1 id="worktitle">About</h1>
 
-            <div class="spec pc">
-                <img src="images/Resized/shinnosuke.jpg">
-                <h3 id="spec" class="jp">
-                    Shinnosuke Yasuda<br>
-                    178cm<br>
-                    70～75kg<br>
-                    1998, Fukuoka in Japan<br>
-                    Lives and works in Berkeley, California
-                </h3>
-            </div>
-            
-            <div class="spec sp">
-                <div id="spec_flex">
-                <img src="images/Resized/shinnosuke.jpg">
-                <h3 id="spec" class="jp">
-                    Shinnosuke Yasuda<br>
-                    178cm<br>
-                    70～75kg
-                </h3>
+            <div class="spec">
+                <div id="spec_img">
+                    <img src="images/line_circle.png" id="line_circle">
+                    <img src="images/Resized/shinnosuke.jpg" id="prof_img">
                 </div>
-                <h3>
-                    1998, Fukuoka in Japan<br>
-                    Lives and works in Berkeley, California
-                </h3>
+                <div id="spec_texts">
+                    <h1 id="shinnosuke_name">Shinnosuke Yasuda</h1>
+                    <h3 class="jp">
+                        178cm<br>
+                        70～75kg<br>
+                        1998, Fukuoka in Japan<br>
+                        Lives and works in Berkeley, California
+                    </h3>
+                </div>
+                <div id="underline"></div>
             </div>
             
             <div class="skill jp">
-                <h2>Artist Bio</h2>
-                <h3>Shinnosuke Yasuda was born in 1998 in Fukuoka in Japan. He received his Bachelor Degree in Art Practice at University of California Berkeley. <!--Upcoming shows include “Coalescence” at the Worth Ryder Gallery, University of California Berkeley.--> He sets his creative identity between being an artist and programmer. While working as a freelance programmer, he spent the first half of his college career majoring in Computer Science and Mechanical Engineering and finished all of the lower division Math and Physics courses, and the second half majoring in Art Practice. He explores the coexistence and co-prosperity between the real and virtual world, and pursues unusual sensational user experiences. Another point of his works is about dimensionality. Many of his works have transformations between 2D and 3D, and changes with time and viewer interaction. He has advocated the interactive changes are the change along with the 5th dimension. Yasuda currently lives and works as a student, artist, programmer, game creator, logo designer and art director in Berkeley, CA</h3>
-
+                <div id="bio">
+                    <h2>Artist Bio</h2>
+                    <h3>Shinnosuke Yasuda was born in 1998 in Fukuoka in Japan. He received his Bachelor Degree in Art Practice at University of California Berkeley. <!--Upcoming shows include “Coalescence” at the Worth Ryder Gallery, University of California Berkeley.--> He sets his creative identity between being an artist and programmer. While working as a freelance programmer, he spent the first half of his college career majoring in Computer Science and Mechanical Engineering and finished all of the lower division Math and Physics courses, and the second half majoring in Art Practice. He explores the coexistence and co-prosperity between the real and virtual world, and pursues unusual sensational user experiences. Another point of his works is about dimensionality. Many of his works have transformations between 2D and 3D, and changes with time and viewer interaction. He has advocated the interactive changes are the change along with the 5th dimension. Yasuda currently lives and works as a student, artist, programmer, game creator, logo designer and art director in Berkeley, CA</h3>
+                </div>
                 <!--                <h2>経歴</h2>-->
                 <!--                <h3>-->
                 <!--                    2013: 福岡大学附属大濠高校入学<br>-->
@@ -79,18 +71,20 @@
                 <!--                    UCバークレー芸術科に編入-->
                 <!--                </h3>-->
                 <h2>History</h2>
-                <h3>
-                    2013: Entered Ohori High School<br>
-                    2016: Started learning programming<br>
-                    2017: Entered a community college and majored in computer science<br>
-                    2018: Started majoring in mechannical engineering<br>
-                    Launched a game "Atomize"<br>
-                    2019: Started majoring in art practice<br>
-                    Co-founded Tripia Inc.<br>
-                    2020: Launched "StressBank", an SNS to share stresses<br>
-                    Transfered to UC Berkeley
-                </h3>
-
+                <div id="history_content">
+                    <div id="arrow"><div id="history_line"><img src="images/triangle.png"></div></div>
+                    <table id="history_table">
+                        <tr><td>2016 : </td><td>Graduated from Ohori High School</td></tr>
+                        <tr><td></td><td>Started Learning Programming</td></tr>
+                        <tr><td>2017 : </td><td>Entered a community college and majored in computer science</td></tr>
+                        <tr><td>2018 : </td><td>Started majoring in mechanical engineering</td></tr>
+                        <tr><td></td><td>Launched a 9x9x2 boardgame "<i>Atomize</i>"</td></tr>
+                        <tr><td>2019 : </td><td>Started majoring in art</td></tr>
+                        <tr><td></td><td>Co-founded Tripia Inc. as the CTO</td></tr>
+                        <tr><td>2020 : </td><td>Launched "<i>StressBank</i>", an SNS to share our stress</td></tr>
+                        <tr><td></td><td>Transfered to UC Berkeley</td></tr>
+                    </table>
+                </div>
 <!--                <h2>使える言語</h2>-->
 <!--                <h3>HTML, CSS, C♯, Java, Kotlin, PHP, JavaScript(+JQuery), C++, C, 日本語, 英語</h3>-->
 <!--                <h2>主に募集してる仕事</h2>-->
@@ -105,14 +99,14 @@
 <!--                <h2 id="contact">お問い合わせは<a href="mailto:yasuda1.11s@outlook.jp">こちら</a></h2>-->
 
                 <h2>Languages</h2>
-                <h3>HTML, CSS, C♯, Java, Kotlin, PHP, JavaScript, C++, C, Japanese, English</h3>
+                <h3>C♯, Java, Kotlin, PHP, JavaScript, C++, C, HTML, CSS, Japanese, English</h3>
                 <h2>Available Jobs</h2>
                 <h3>
-                    <li>Game Creations (Unity+C♯)</li>
-                    <li>Web Creations (HTML,CSS,JS,PHPまたはSpringBoot,Java)</li>
-                    <li>Aby Kinds of Designs</li>
-                    <li>3D Model Designs</li>
                     <li>Art Directions</li>
+                    <li>Game Creations</li>
+                    <li>Web Creations</li>
+                    <li>Aby Kinds of Designs</li>
+                    <li>3D Modelings</li>
                     <li>English-Japanese Translations</li>
                 </h3>
                 <h2 id="contact">Contact me from <a href="mailto:yasuda1.11s@outlook.jp">here</a></h2>

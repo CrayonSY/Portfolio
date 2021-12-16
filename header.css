@@ -102,9 +102,9 @@ header ul li a{
 
     #worktitle {
         font-size: 8rem;
-        margin-left: 10rem;
-        margin-top: 12rem;
-        margin-bottom: 7rem;
+        margin-top: 0rem;
+        margin-bottom: 10rem;
+        text-align: center;
     }
 }
 
@@ -120,11 +120,14 @@ header ul li a{
         left: 0;
         content: '';
         width: 0;
-        height: 4px;
-        background-color: var(--secondcolor);
+        height: 0.8rem;
+        background-color: var(--thirdcolor);
         transition: .3s;
     }
-
+    header ul li a:hover::after {
+        width: 100%;
+    }
+    
     .nav-list {
         white-space: nowrap;
     }
@@ -157,7 +160,6 @@ header ul li a{
     
     #worktitle {
         font-size: 5rem;
-        margin-left: 6rem;
         margin-bottom: 2rem;
     }
 }
