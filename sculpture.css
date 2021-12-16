@@ -1,28 +1,3 @@
-:root{
-    --fontcolor: #555555;
-    --firstcolor: #f6f6f6;
-    --secondcolor: #000077;
-    --thirdcolor: #af7f11;
-}
-body:not(#canv) {
-    width: 100%;
-    position: relative;
-    margin: 0;
-}
-.contents {
-    max-width: 1000px;
-    overflow: hidden;
-    position: relative;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-#canv{
-    position: fixed;
-    z-index: -10000;
-    width: 100rem;
-    height: 100vh;
-}
 .sculpturework {
 	border-top: 1px solid black;
 }
@@ -32,12 +7,6 @@ body:not(#canv) {
 
 @media screen and (max-width: 767px){
 
-    #worktitle {
-        font-size: 8rem;
-        margin-left: 10rem;
-        margin-top: 12rem;
-        margin-bottom: 3rem;
-    }
     .sculpturework {
         width: 80rem;
         margin-left: 10rem;
@@ -56,13 +25,6 @@ body:not(#canv) {
 
 
 @media screen and (min-width: 768px){
-
-        #worktitle {
-            font-size: 5rem;
-            margin-left: 6rem;
-            margin-top: 8rem;
-            margin-bottom: 2rem;
-        }
         
         .sculpturework {
             width: 88rem;

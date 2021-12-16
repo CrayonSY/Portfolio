@@ -1,5 +1,10 @@
+.yoko{
+    display: flex;
+}
+
 :root{
-    --fontcolor: #555555;
+    /*--fontcolor: #555555;*/
+    --fontcolor: black;
     --firstcolor: #f6f6f6;
     --secondcolor: #000077;
     --thirdcolor: #af7f11;
@@ -9,12 +14,14 @@ html:not(#canv){
     overflow-y: scroll;
 }
 body:not(#canv){
-    font-family: 'Cardo', serif;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 100;
     color: var(--fontcolor);
     overflow-x: hidden;
     overflow-y: scroll;
+    width: 100%;
+    position: relative;
+    margin: 0;
 }
 header{
     position: relative;
@@ -22,22 +29,22 @@ header{
     max-width: 1000px;
     left: 0;
     right: 0;
-    margin: auto;
 }
 body{
     background-color: var(--firstcolor);
     margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 .title a {
 	text-decoration: none;
 }
-.title h1, .title h2{
+.title h1{
     text-decoration: none;
-    color: var(--fontcolor);
-    background: -webkit-linear-gradient(-70deg, #002, #008, #004, #008, #002, #006, #005, #008, #007, #001, #002, #003);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: black;
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
 }
 
 
@@ -46,52 +53,67 @@ header ul li a{
     font-weight: bold;
     padding: 1%;
     position: relative;
-    color: var(--fontcolor);
+    color: black;
+}
+.contents {
+    max-width: 1000px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#canv{
+    position: fixed;
+    z-index: -10000;
+    width: 100vw;
+    height: 100vh;
 }
 
-
-
 @media screen and (max-width: 767px){
-
+    header{
+        margin: 10rem auto;
+    }
     header h1 {
         font-size: 6rem;
         margin: 0;
-        margin-top: 11rem;
         width: 100rem;
         padding: 0;
-        left: 0;
         text-align: center;
         line-height: 9.5rem;
     }
-    header h2{
-        text-align: center;
-        font-size: 5em;
-        width: 100rem;
-        margin: 0;
-        margin-bottom: 8rem;
-    }
 
     header li {
-        font-size: 6rem;
+        font-size: 5rem;
         display: inline;
         text-align: center;
         white-space: nowrap;
         padding: 0 3rem;
     }
     header ul {
-        margin: 0;
+        margin-top: 3.5rem;
         padding: 0;
         width: 100rem;
-        margin-top: 3.5rem;
         text-align: center;
+    }
+    .pc{
+        display: none;
+    }
+
+    #worktitle {
+        font-size: 8rem;
+        margin-left: 10rem;
+        margin-top: 12rem;
+        margin-bottom: 7rem;
     }
 }
 
 
 @media screen and (min-width: 768px) {
     header{
-        display: flex;
+        margin: 10rem auto;
     }
+    
     header ul li a::after {
         position: absolute;
         bottom: 0;
@@ -107,56 +129,39 @@ header ul li a{
         white-space: nowrap;
     }
 
-    header ul li a:hover::after {
-        width: 100%;
-    }
-
-    header ul li {
-        font-weight: bold;
-        margin-bottom: 0;
-    }
-
-    header li {
-        display: inline;
-        text-align: center;
-        white-space: nowrap;
-    }
-
     header h1 {
-        font-size: 3rem;
+        font-size: 5rem;
         margin: 0;
-        margin-top: 3rem;
-        margin-left: 6rem;
         padding: 0;
-        left: 0;
-        text-align: left;
-        line-height: 3.5rem;
+        text-align: center;
+        width: 100rem;
     }
-
-    header h2 {
-        font-size: 2.5rem;
-        margin-left: 6rem;
-        margin-top: 0;
+    
+    header ul {
+        padding: 0;
+        margin-top: 3rem;
+        width: 100rem;
+        text-align: center;
     }
 
     header li {
-        font-size: 3rem;
+        font-size: 4rem;
         display: inline;
         text-align: center;
-        margin-right: 2rem;
         white-space: nowrap;
+        margin: 0 1rem;
     }
-
-    header ul {
-        position: absolute;
-        float: right;
-        margin: 0;
-        top: 6.5rem;
-        right: 4rem;
-        width: 22rem;
+    .sp{
+        display: none;
+    }
+    
+    #worktitle {
+        font-size: 5rem;
+        margin-left: 6rem;
+        margin-bottom: 2rem;
     }
 }
-
+/* remのためのfont-size定義 */
 @media screen and (max-width: 767px){  /*スマホ*/
     html{
         font-size: 1vw;

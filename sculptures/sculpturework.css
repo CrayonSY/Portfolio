@@ -30,13 +30,6 @@ body:not(#canv) {
 
 
 @media screen and (max-width: 767px){
-
-    #worktitle {
-        font-size: 8rem;
-        margin-left: 10rem;
-        margin-top: 12rem;
-        margin-bottom: 3rem;
-    }
     
     video{
         width: 80rem;
@@ -70,13 +63,6 @@ body:not(#canv) {
 @media screen and (min-width: 768px){
 
     @media screen and (max-width: 1000px){
-
-        #worktitle {
-            font-size: 5rem;
-            margin-left: 6rem;
-            margin-top: 8rem;
-            margin-bottom: 2rem;
-        }
         
         video{
             width: 88rem;
@@ -107,13 +93,6 @@ body:not(#canv) {
 
 
 @media screen and (min-width: 1001px){
-
-    #worktitle {
-        font-size: 50;
-        margin-left: 60;
-        margin-top: 80;
-        margin-bottom: 20;
-    }
     
     video{
         width: 880;

@@ -1,28 +1,3 @@
-:root{
-    --fontcolor: #000000;
-    --firstcolor: #f6f6f6;
-    --secondcolor: #000077;
-    --thirdcolor: #af7f11;
-}
-body:not(#canv) {
-    width: 100%;
-    position: relative;
-    margin: 0;
-}
-.contents {
-    max-width: 1000px;
-    overflow: hidden;
-    position: relative;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-#canv{
-    position: fixed;
-    z-index: -10000;
-    width: 100rem;
-    height: 100vh;
-}
 .tags{
     display: flex;
 }
