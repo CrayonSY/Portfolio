@@ -34,7 +34,6 @@ body{
     background-color: var(--firstcolor);
     margin: 0;
     width: 100vw;
-    height: 100vh;
 }
 
 .title a {
@@ -69,7 +68,6 @@ header ul li a{
     position: fixed;
     z-index: -10000;
     width: 100vw;
-    height: 100vh;
 }
 
 @media screen and (max-width: 767px){
