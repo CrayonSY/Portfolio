@@ -75,7 +75,7 @@ header ul li a{
         margin: 10rem auto;
     }
     header h1 {
-        font-size: 6rem;
+        font-size: 7rem;
         margin: 0;
         width: 100rem;
         padding: 0;
@@ -84,7 +84,7 @@ header ul li a{
     }
 
     header li {
-        font-size: 5rem;
+        font-size: 6rem;
         display: inline;
         text-align: center;
         white-space: nowrap;
@@ -102,8 +102,8 @@ header ul li a{
 
     #worktitle {
         font-size: 8rem;
-        margin-top: 0rem;
-        margin-bottom: 10rem;
+        margin-top: 5rem;
+        margin-bottom: 15rem;
         text-align: center;
     }
 }
