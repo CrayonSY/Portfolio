@@ -19,7 +19,7 @@ body:not(#canv){
     color: var(--fontcolor);
     overflow-x: hidden;
     overflow-y: scroll;
-    width: 100%;
+    /*width: 100%;*/
     position: relative;
     margin: 0;
 }
