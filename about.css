@@ -24,40 +24,40 @@ table{
     }
     #spec_img{
         position: relative;
-        width: 50rem;
-        height: 50rem;
+        width: 46rem;
+        height: 46rem;
     }
     #line_circle{
         position: absolute;
-        width: 50rem;
-        height: 50rem;
+        width: 46rem;
+        height: 46rem;
     }
     #prof_img{
         position: absolute;
         border-radius: 50%;
-        width: 44rem;
-        height: 44rem;
+        width: 40rem;
+        height: 40rem;
         left: 3rem;
         top: 3rem;
     }
     #underline{
-        width: 57.9rem;
+        width: 61.9rem;
         height: 1rem;
         border-bottom: double 3px #777777;
         position: absolute;
-        left: 42.1rem;
-        top: 61.1rem;
+        left: 38.1rem;
+        top: 58.1rem;
     }
     #spec_texts{
-        width: 47rem;
-        padding-top: 6rem;
+        width: 54rem;
+        padding-top: 2rem;
     }
     #shinnosuke_name{
         font-size: 5.5rem;
     }
     #spec_texts h3{
-        font-size: 2.7rem;
-        line-height: 5rem;
+        font-size: 3rem;
+        line-height: 5.5rem;
     }
 
     .skill{
@@ -146,7 +146,6 @@ table{
     }
     #spec_texts{
         width: 50rem;
-        padding-left: 8rem;
         padding-top: 8rem;
     }
     #shinnosuke_name{
@@ -200,6 +199,7 @@ table{
     }
     #history_table td{
         padding: 1.3rem 0;
+        min-width: 8rem;
     }
 
     #Contact {
