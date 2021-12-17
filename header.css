@@ -53,7 +53,9 @@ header ul li a{
     font-weight: bold;
     padding: 1%;
     position: relative;
-    color: black;
+    color: #009;
+    border-bottom: #aaa solid 0.5rem;
+    padding-bottom: 0;
 }
 .contents {
     max-width: 1000px;
@@ -120,7 +122,7 @@ header ul li a{
         left: 0;
         content: '';
         width: 0;
-        height: 0.8rem;
+        height: 0.4rem;
         background-color: var(--thirdcolor);
         transition: .3s;
     }
