@@ -4,7 +4,121 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fda33db5-de23-466d-9754-c2138e7cb86e" name="Changes" comment="" />
+    <list default="true" id="fda33db5-de23-466d-9754-c2138e7cb86e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/All-Logos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/AESLETE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Bancho-Logo_horizontal-inverse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Bancho-Logo_horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Bancho-Logo_vertical-09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Bancho-Logo_vertical-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Bancho-Logo_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/HITGLISH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/HITGLISH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/HITGLISH_explanation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/HITGLISH_explanation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/MetaPenta_Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/12design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/All-Logos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/Atomize.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/IMG_0035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/Suns-Logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/apples.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/balls.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/editteam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/flower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/help1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/help2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/ilander.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/masaki_suda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/me.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/paperbag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/pinecone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/sculpture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/self-portrait.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/shinnosuke.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Resized/visiblemusic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/SchellinFit(White).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/SchellinFit(White).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Schellin_Logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Schellin_Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/Suns-Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/genchee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/genchee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/kinnosuke_the_fighter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/secai_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/smile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/smile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/stressbank.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/stressbank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/tsuginanisuru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/tsuginanisuru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/wadashika.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo/wadashika.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Portfolio_top-bg-rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/xrcc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Portfolio.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atomize.html" beforeDir="false" afterPath="$PROJECT_DIR$/atomize.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/design.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drawing.html" beforeDir="false" afterPath="$PROJECT_DIR$/drawing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/All-Logos.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/All-Logos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/HITGLISH.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/HITGLISH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/HITGLISH_explanation.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/HITGLISH_explanation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/12design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/All-Logos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/Atomize.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/IMG_0035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/Suns-Logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/apples.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/balls.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/editteam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/flower.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/help1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/help2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/ilander.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/masaki_suda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/paperbag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/pinecone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/sculpture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/self-portrait.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/shinnosuke.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Resized/visiblemusic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/SchellinFit(White).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/SchellinFit(White).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Schellin_Logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Schellin_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Suns-Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/genchee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/genchee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/smile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/stressbank.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/stressbank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tsuginanisuru.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tsuginanisuru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wadashika.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wadashika.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painting.html" beforeDir="false" afterPath="$PROJECT_DIR$/painting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sculpture.html" beforeDir="false" afterPath="$PROJECT_DIR$/sculpture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seniorproject.html" beforeDir="false" afterPath="$PROJECT_DIR$/seniorproject.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visiblemusic.html" beforeDir="false" afterPath="$PROJECT_DIR$/visiblemusic.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +128,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -29,29 +145,29 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1yOOQEdDB5uyvPlma5MIHGQXZK9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994525" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="about.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Portfolio/about.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/Portfolio/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.about.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,7 +182,10 @@
       <workItem from="1637577364703" duration="315000" />
       <workItem from="1638383406536" duration="7974000" />
       <workItem from="1639344264435" duration="708000" />
-      <workItem from="1639534723754" duration="27594000" />
+      <workItem from="1639534723754" duration="27622000" />
+      <workItem from="1659971829722" duration="114000" />
+      <workItem from="1660701193331" duration="2630000" />
+      <workItem from="1660703880896" duration="18748000" />
     </task>
     <servers />
   </component>
@@ -77,6 +196,11 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

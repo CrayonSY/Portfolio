@@ -15,13 +15,16 @@ th a img{
         width: 80rem;
         margin: 10rem;
     }
+    .elements tr{
+        margin-bottom: 10rem;
+    }
     tr, th{
         display: block;
         margin-bottom: 20rem;
     }
     .element {
         width: 80rem;
-        margin-bottom: 10rem;
+        margin-bottom: 0;
     }
     .element img{
         width: 80rem;
@@ -31,14 +34,26 @@ th a img{
         border-right: solid 3px #666666;
         border-radius: 5rem;
         background-color: white;
+        object-fit: contain;
     }
-    .element h3{
+    .elements h3 {
         margin: 0;
         text-align: center;
-        margin-left: 2.5rem;
         line-height: 6rem;
-        font-size: 5.5rem;
-        color: var(--secondcolor);
+        font-size: 4.5rem;
+        padding: 3rem 0;
+        
+    }
+    .elements th a{
+        text-decoration: none;
+    }
+    .elements th a p{
+        width: fit-content;
+        padding: 1.5rem 8rem;
+        background: white;
+        border: solid 2px black;
+        color: black;
+        margin: 0 auto;
     }
 }
 @media screen and (min-width: 768px){
@@ -47,10 +62,12 @@ th a img{
         width: 92rem;
         margin: 4rem;
     }
+    .elements tr{
+        margin-bottom: 2rem;
+    }
     .element{
         width: 41rem;
         margin: 2.5rem;
-        padding-bottom: 4rem;
     }
     .element img{
         width: 45rem;
@@ -62,16 +79,27 @@ th a img{
         border-right: solid 3px #666666;
         border-radius: 3rem;
         background-color: white;
+        object-fit: contain;
     }
     .element img:hover{
         transform: scale(1.05);
     }
-    .element h3{
+    .elements h3{
         margin: 0;
         text-align: left;
-        margin-left: 2.5rem;
-        font-size: 3rem;
-        color: var(--secondcolor);
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .elements th a{
+        text-decoration: none;
+    }
+    .elements th a p{
+        width: fit-content;
+        padding: 1.5rem 8rem;
+        background: white;
+        border: solid 2px black;
+        color: black;
+        margin: 2rem auto;
     }
 }
 html, body { 

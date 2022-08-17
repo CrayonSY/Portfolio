@@ -1,0 +1,269 @@
+.about {
+    table {
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 767px){
+    .about {
+        p{
+            font-size: 4.5rem;
+            line-height: 7rem;
+        }
+        h2 {
+            margin-top: 18rem;
+            margin-bottom: 8rem;
+            font-size: 5.5rem;
+        }
+    
+        h3 {
+            font-size: 3rem;
+            line-height: 5rem;
+        }
+    
+        li {
+            margin-right: 6rem;
+            width: 88rem;
+            line-height: 5rem;
+        }
+    
+        .spec {
+            position: relative;
+            display: flex;
+            margin-top: 10rem;
+            margin-bottom: 8rem;
+        }
+    
+        #spec_img {
+            position: relative;
+            width: 46rem;
+            height: 46rem;
+        }
+    
+        #line_circle {
+            position: absolute;
+            width: 46rem;
+            height: 46rem;
+        }
+    
+        #prof_img {
+            position: absolute;
+            border-radius: 50%;
+            width: 40rem;
+            height: 40rem;
+            left: 3rem;
+            top: 3rem;
+        }
+    
+        #underline {
+            width: 61.9rem;
+            height: 1rem;
+            border-bottom: double 3px #777777;
+            position: absolute;
+            left: 38.1rem;
+            top: 38.1rem;
+        }
+    
+        #spec_texts {
+            width: 54rem;
+            padding-top: 2rem;
+        }
+    
+        #shinnosuke_name {
+            font-size: 5.5rem;
+        }
+    
+        #spec_texts p {
+            font-size: 3rem;
+            line-height: 5.5rem;
+        }
+    
+        .skill {
+            margin: 0 7rem;
+        }
+    
+        #bio {
+            line-height: 4rem;
+        }
+    
+        #history_content {
+            display: flex;
+            margin-left: 2rem;
+        }
+    
+        #history_line {
+            border-left: solid black 2px;
+            width: 2.5rem;
+            /*height: 100%;*/
+            height: 152rem;
+            margin: auto;
+            position: relative;
+        }
+    
+        #history_line img {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            transform: translate(-57%, 50%);
+        }
+    
+        #history_table {
+            margin-left: 3rem;
+        }
+    
+        #history_table td {
+            padding: 1.3rem 0;
+            font-size: 4.5rem;
+            min-width: 14rem;
+            vertical-align: top;
+            font-weight: 100;
+        }
+    
+        #Contact {
+            width: 80rem;
+            border-top: solid 2px var(--fontcolor);
+            border-bottom: solid 2px var(--fontcolor);
+            font-size: 5rem;
+            text-align: center;
+            line-height: 10rem;
+            margin: 15rem auto 30rem auto;
+        }
+    
+        .pc {
+            display: none;
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .worktitle{
+        font-size: 5rem;
+        width: 100%;
+        margin-top: 6rem;
+    }
+    .about {
+        p{
+            font-size: 2.5rem;
+        }
+        .spec {
+            display: flex;
+            margin-top: 10rem;
+            margin-bottom: 8rem;
+        }
+
+        #spec_img {
+            position: relative;
+            width: 50rem;
+            height: 50rem;
+        }
+
+        #line_circle {
+            position: absolute;
+            width: 50rem;
+            height: 50rem;
+        }
+
+        #prof_img {
+            position: absolute;
+            border-radius: 50%;
+            width: 44rem;
+            height: 44rem;
+            left: 3rem;
+            top: 3rem;
+        }
+
+        #underline {
+            width: 57.9rem;
+            height: 1rem;
+            border-bottom: double 6px #777777;
+            position: absolute;
+            left: 42.1rem;
+            top: 63.5rem;
+        }
+
+        #spec_texts {
+            width: 50rem;
+            padding-top: 8rem;
+        }
+
+        #shinnosuke_name {
+            font-size: 4.8rem;
+        }
+
+        #spec_texts p {
+            font-size: 2.7rem;
+            line-height: 5rem;
+            width: 44rem;
+        }
+
+        #bio {
+            line-height: 4rem;
+        }
+
+        h2 {
+            margin-top: 12rem;
+            margin-right: 6rem;
+            margin-bottom: 3rem;
+            font-size: 3.5rem;
+        }
+
+        h3 {
+            margin-bottom: 8rem;
+            font-size: 2.5rem;
+            line-height: 4rem;
+        }
+
+        li {
+            margin-right: 6rem;
+            width: 88rem;
+            line-height: 5rem;
+        }
+
+        #history_content {
+            display: flex;
+            margin-left: 5rem;
+        }
+
+        #history_line {
+            border-left: solid black 2px;
+            width: 2.5rem;
+            height: 100%;
+            margin: auto;
+            position: relative;
+        }
+
+        #history_line img {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            transform: translate(-55%, 50%);
+        }
+
+        #history_table {
+            margin-left: 6rem;
+        }
+
+        #history_table td {
+            padding: 1.3rem 0;
+            min-width: 8rem;
+            font-size: 2.5rem;
+            font-weight: 100;
+        }
+
+        #Contact {
+            width: 88rem;
+            margin-right: 6rem;
+            border-top: solid 2px var(--fontcolor);
+            border-bottom: solid 2px var(--fontcolor);
+            font-size: 4rem;
+            text-align: center;
+            line-height: 7rem;
+            margin-bottom: 10rem;
+        }
+
+        .sp {
+            display: none;
+        }
+    }
+}
+

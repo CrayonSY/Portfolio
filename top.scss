@@ -1,0 +1,156 @@
+﻿.worktitle{
+  font-size: 40px;
+  width: 100%;
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .top{
+    position: relative;
+    margin: auto;
+    width: 100vw;
+    
+    img{
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+    
+    h1{
+      color: white;
+      position: absolute;
+      font-size: 9rem;
+    }
+    
+    .photoby{
+      position: absolute;
+      font-size: 3rem;
+      text-align: right;
+      color: white;
+      right: 3rem;
+      bottom: 0;
+      
+      a{
+        text-decoration: underline;
+        color: white;
+      }
+    }
+    
+    .top_bg_rectangle{
+      position: absolute;
+      width: 100vw;
+      top: 0;
+      left: 0;
+    }
+
+    .name_en{
+      top: 40vh;
+      width: 100vw;
+      text-align: center;
+    }
+
+    .name_jp{
+      top: 50vh;
+      width: 100vw;
+      text-align: center;
+    }
+
+  }
+  
+  .contact{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ddd;
+    padding: 5rem 0;
+    margin-bottom: 10rem;
+    display: block;
+
+    .sns{
+      display: flex;
+      margin: auto;
+      width: fit-content;
+    }
+    img{
+      width: 15rem;
+      height: 15rem;
+      margin: 2rem;
+    }
+  }
+}
+@media screen and (min-width: 766px) {
+  .top{
+    position: relative;
+    margin: auto;
+    width: 100vw;
+    
+    img{
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+    
+    h1{
+      color: white;
+      position: absolute;
+      font-size: 7rem;
+    }
+
+    .photoby{
+      position: absolute;
+      color: white;
+      font-size: 3rem;
+      text-align: right;
+      right: 3rem;
+      bottom: 0;
+
+      a{
+        text-decoration: underline;
+        color: white;
+      }
+    }
+    
+    .top_bg_rectangle{
+      position: absolute;
+      width: 100vw;
+      top: 0;
+      left: 0;
+    }
+    
+    .name_en{
+      top: 40vh;
+      width: 100vw;
+      text-align: center;
+    }
+
+    .name_jp{
+      top: 50vh;
+      width: 100vw;
+      text-align: center;
+    }
+
+  }
+  
+  .contact{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ddd;
+    padding: 5rem 0;
+    margin-bottom: 8rem;
+    display: block;
+    
+    .sns{
+      display: flex;
+      margin: auto;
+      width: fit-content;
+    }
+    img{
+      width: 9rem;
+      height: 9rem;
+      margin: 2rem;
+    }
+  }
+}
