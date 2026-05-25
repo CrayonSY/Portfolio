@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>500 — Internal Server Error ｜ Shinnosuke Yasuda</title>
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <meta name="description" content="サーバー側で予期しないエラーが発生しました。">
+  <meta property="og:image" content="https://shinnosukeyasuda.com/images/ogpimage.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="bg-blobs" aria-hidden="true"></div>
+
+  <header class="site-header is-solid">
+    <a href="/" class="site-header__brand">Shinnosuke Yasuda</a>
+    <nav class="site-header__nav">
+      <a href="/#works">Works</a>
+      <a href="/#about">About</a>
+      <a href="/#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="notfound">
+    <p class="notfound__eyebrow">500 — Internal Server Error</p>
+    <h1 class="notfound__title">サーバーエラーが発生しました。</h1>
+    <p class="notfound__lede">予期しないエラーによりページを表示できませんでした。<br>しばらく時間を置いてから再度お試しください。問題が続く場合はお問い合わせください。</p>
+    <div class="notfound__actions">
+      <a class="notfound__btn notfound__btn--primary" href="/">Home</a>
+      <a class="notfound__btn" href="javascript:location.reload()">Reload</a>
+      <a class="notfound__btn" href="mailto:yasuda@metapenta.org">Contact</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__label">Contact</p>
+    <h2 class="footer__title">Let's work together.</h2>
+    <a class="footer__email" href="mailto:yasuda@metapenta.org">yasuda@metapenta.org</a>
+    <p class="footer__copy">© <span id="year"></span> Shinnosuke Yasuda</p>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="/main.js"></script>
+</body>
+</html>

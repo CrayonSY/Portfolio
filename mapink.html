@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shinnosuke Yasuda｜Mapink</title>
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <meta name="description" content="MAPINK — 地球を２階建てにする位置情報XRサービス。株式会社メタペンタ。">
+  <meta property="og:image" content="https://shinnosukeyasuda.com/images/mapink/cover.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-blobs" aria-hidden="true"></div>
+
+  <header class="site-header is-solid">
+    <a href="/" class="site-header__brand">Shinnosuke Yasuda</a>
+    <nav class="site-header__nav">
+      <a href="/#works">Works</a>
+      <a href="/#about">About</a>
+      <a href="/#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="subpage">
+    <div class="subpage__head reveal">
+      <a class="subpage__back" href="/#works">Back to Works</a>
+      <h1 class="subpage__title">Mapink</h1>
+      <p class="subpage__lede">地球を２階建てにする位置情報XRサービス。リアルの場所とメタバースの場所が連動する、新しい "行きたい" の地図。</p>
+    </div>
+
+    <div class="mapink-hero reveal">
+      <div class="mapink-hero__cover">
+        <img src="images/mapink/cover.jpg" alt="MAPINK key visual">
+      </div>
+    </div>
+
+    <div class="mapink-body reveal">
+      <div class="mapink-icon">
+        <img src="images/mapink/icon-1024.png" alt="MAPINK app icon">
+      </div>
+      <div class="mapink-text">
+        <p>MAPINK（マピンク）は、株式会社メタペンタが開発・運営する位置情報×XR のソーシャルマップアプリです。お気に入りの場所を仲間と共有し、友達の行った場所を辿り、そこに置かれたアイテムを拾う ── 現実の地図とメタバースの地図がひとつにつながった「２階建ての地球」を体験できます。</p>
+        <p>2023年6月にαテストを実施、2024年5月に Ver.1.0.0 を正規リリース。今後は MAPINK AR (Version 2.0.0) や NFT 対応の拡張を予定しています。</p>
+
+        <dl class="mapink-meta">
+          <div><dt>Category:</dt><dd>Social Map Game</dd></div>
+          <div><dt>Platform:</dt><dd>iOS / iPad</dd></div>
+          <div><dt>Developer:</dt><dd>株式会社メタペンタ</dd></div>
+          <div><dt>Role:</dt><dd>Founder / CEO / Lead Developer / Designer</dd></div>
+        </dl>
+
+        <a class="mapink-cta" href="https://apps.apple.com/jp/app/mapink/id6451049597" target="_blank" rel="noopener">App Store でダウンロード</a>
+      </div>
+    </div>
+
+    <div class="mapink-gallery reveal">
+      <img src="images/mapink/appstore.jpg" alt="MAPINK App Store screenshots">
+      <img src="images/mapink/meta-world.jpg" alt="MAPINK metaverse layer">
+      <img src="images/mapink/screens-a.jpg" alt="MAPINK app screens A">
+      <img src="images/mapink/screens-b.jpg" alt="MAPINK app screens B">
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__label">Contact</p>
+    <h2 class="footer__title">Let's work together.</h2>
+    <a class="footer__email" href="mailto:yasuda@metapenta.org">yasuda@metapenta.org</a>
+    <p class="footer__copy">© <span id="year"></span> Shinnosuke Yasuda</p>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="main.js"></script>
+</body>
+</html>

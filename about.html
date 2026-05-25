@@ -1,113 +1,154 @@
-<html>
-    <head>
-        <link rel="shortcut icon" href="favicon.ico">
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shinnosuke Yasuda｜About</title>
+  <link rel="shortcut icon" href="favicon.ico">
 
-        <link href="https://fonts.googleapis.com/css?family=Cardo&display=swap" rel="stylesheet">
-        <title>Shinnosuke Yasuda｜About</title>
-        <link rel = "stylesheet" href="header.css">
-        <link rel = "stylesheet" href="about.css">
-        <meta http-equiv="content-type" charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <meta name="description" content="安田真之助のプロフィール。アーティスト、プログラマ、デザイナー。">
+  <meta property="og:image" content="https://shinnosukeyasuda.com/images/ogpimage.png">
 
-        
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <meta property="og:image" content="https://shinnosukeyasuda.com/images/ogpimage.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
 
-    </head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-blobs" aria-hidden="true"></div>
 
+  <header class="site-header is-solid">
+    <a href="/" class="site-header__brand">Shinnosuke Yasuda</a>
+    <nav class="site-header__nav">
+      <a href="/#works">Works</a>
+      <a href="/#about">About</a>
+      <a href="/#contact">Contact</a>
+    </nav>
+  </header>
 
-    <body>
-    <canvas id='canv' width="100vw" height="100vh"></canvas>
-    <header>
-
-        <div class="title"><a href="https://shinnosukeyasuda.com/">
-            <h1 id="name">Shinnosuke Yasuda</h1>
-        </a></div>
-
-        <ul>
-            <div class="nav-list">
-                <li><a href="about">About</a></li>
-                <li><a href="https://shinnosukeyasuda.com/">Works</a></li>
-            </div>
-        </ul>
+  <section class="section" style="padding-top: 160px;">
+    <header class="section__head reveal">
+      <p class="section__label">Profile</p>
+      <h2 class="section__title">About</h2>
     </header>
 
-    <div class="contents">
+    <div class="about__grid">
+      <div class="reveal">
+        <img class="about__portrait" src="images/shinnosuke.jpg" alt="Shinnosuke Yasuda portrait">
+        <ul class="about__meta">
+          <li>178cm / 70–75kg</li>
+          <li>Born 1998, Fukuoka, Japan</li>
+          <li>Based in Tokyo, Japan</li>
+        </ul>
+      </div>
 
-            <h1 id="worktitle">About</h1>
+      <div>
+        <div class="reveal">
+          <p class="about__bio">
+            Shinnosuke Yasuda was born in 1998 in Fukuoka, Japan. He received his Bachelor Degree in Art Practice at the University of California, Berkeley. He sets his creative identity between being an artist and a programmer.
+          </p>
+          <p class="about__bio">
+            While working as a freelance programmer, he spent the first half of his college career majoring in Computer Science and Mechanical Engineering and finished all of the lower-division Math and Physics courses, then the second half majoring in Art Practice. He explores the coexistence and co-prosperity between the real and virtual world, and pursues unusual sensational user experiences.
+          </p>
+          <p class="about__bio">
+            Another point of his works is dimensionality. Many of them transform between 2D and 3D, and change with time and viewer interaction — interactive changes he has advocated as "the change along the 5th dimension."
+          </p>
+        </div>
 
-            <div class="spec">
-                <div id="spec_img">
-                    <img src="images/line_circle.png" id="line_circle">
-                    <img src="images/Resized/shinnosuke.jpg" id="prof_img">
-                </div>
-                <div id="spec_texts">
-                    <h1 id="shinnosuke_name">Shinnosuke Yasuda</h1>
-                    <h3 class="jp">
-                        178cm<br>
-                        70～75kg<br>
-                        1998, Fukuoka in Japan<br>
-                        Lives and works in Berkeley, California
-                    </h3>
-                </div>
-                <div id="underline"></div>
-            </div>
-            
-            <div class="skill jp">
-                <div id="bio">
-                    <h2>Artist Bio</h2>
-                    <h3>Shinnosuke Yasuda was born in 1998 in Fukuoka in Japan. He received his Bachelor Degree in Art Practice at University of California Berkeley. <!--Upcoming shows include “Coalescence” at the Worth Ryder Gallery, University of California Berkeley.--> He sets his creative identity between being an artist and programmer. While working as a freelance programmer, he spent the first half of his college career majoring in Computer Science and Mechanical Engineering and finished all of the lower division Math and Physics courses, and the second half majoring in Art Practice. He explores the coexistence and co-prosperity between the real and virtual world, and pursues unusual sensational user experiences. Another point of his works is about dimensionality. Many of his works have transformations between 2D and 3D, and changes with time and viewer interaction. He has advocated the interactive changes are the change along with the 5th dimension. Yasuda currently lives and works as a student, artist, programmer, game creator, logo designer and art director in Berkeley, CA</h3>
-                </div>
-                <!--                <h2>経歴</h2>-->
-                <!--                <h3>-->
-                <!--                    2013: 福岡大学附属大濠高校入学<br>-->
-                <!--                    2016: プログラミングを始める<br>-->
-                <!--                    2017: カリフォルニアのカレッジにコンピュータサイエンス専攻で入学<br>-->
-                <!--                    2018: 機械工学を専攻<br>-->
-                <!--                    『Atomize』をAppStoreでリリース<br>-->
-                <!--                    2019: アートを専攻<br>-->
-                <!--                    株式会社TripiaをCo-found<br>-->
-                <!--                    2020: 匿名不満ぶちまけSNS『StressBank』をリリース<br>-->
-                <!--                    UCバークレー芸術科に編入-->
-                <!--                </h3>-->
-                <h2>History</h2>
-                <div id="history_content">
-                    <div id="arrow"><div id="history_line"><img src="images/triangle.png"></div></div>
-                    <table id="history_table">
-                        <tr><td>2016 : </td><td>Graduated from Ohori High School</td></tr>
-                        <tr><td></td><td>Started Learning Programming</td></tr>
-                        <tr><td>2017 : </td><td>Entered a community college and majored in computer science</td></tr>
-                        <tr><td>2018 : </td><td>Started majoring in mechanical engineering</td></tr>
-                        <tr><td></td><td>Launched a 9x9x2 boardgame "<i>Atomize</i>"</td></tr>
-                        <tr><td>2019 : </td><td>Started majoring in art</td></tr>
-                        <tr><td></td><td>Co-founded Tripia Inc. as a CTO</td></tr>
-                        <tr><td>2020 : </td><td>Launched "<i>StressBank</i>", an SNS to share our stress</td></tr>
-                        <tr><td></td><td>Transfered to UC Berkeley</td></tr>
-                        <tr><td>2021 : </td><td>Became an art director for a game company</td></tr>
-                        <tr><td></td><td>Exhibition: "Coalescence" at UC Berkeley Worth Ryder Gallery</td></tr>
-                        <tr><td>2022 : </td><td>Became an art director for a game company</td></tr>
-                        <tr><td></td><td>Received Bachelor of Art at UC Berkeley with 4.00 GPA.</td></tr>
-                    </table>
-                </div>
+        <div class="about__sub reveal">
+          <h3 class="about__sub-title">Current Roles</h3>
+          <div class="roles">
+            <article class="role-card">
+              <div class="role-card__logo role-card__logo--metapenta">
+                <img src="images/companies/metapenta-ogp.jpg" alt="MetaPenta" style="max-height:none;max-width:100%;height:100%;object-fit:cover;">
+              </div>
+              <div class="role-card__body">
+                <span class="role-card__role">代表取締役 · CEO</span>
+                <span class="role-card__name">株式会社メタペンタ</span>
+                <span class="role-card__name-en">MetaPenta Inc.</span>
+                <p class="role-card__desc">2023年4月設立。自社メタバースアプリ「メタペンタ」の開発・運営、90万円から始められるメタバース制作代行サービス「ShareVerse」、各種デザイン・システムの受託開発。</p>
+                <a class="role-card__link" href="https://metapenta.org" target="_blank" rel="noopener">metapenta.org →</a>
+              </div>
+            </article>
 
-                <h2>Languages</h2>
-                <h3>C♯, Java, Kotlin, PHP, JavaScript, C++, C, HTML, CSS, Japanese, English</h3>
-                <h2>Available Jobs</h2>
-                <h3>
-                    <li>Art Directions</li>
-                    <li>Game Creations</li>
-                    <li>Web Creations</li>
-                    <li>Aby Kinds of Designs</li>
-                    <li>3D Modelings</li>
-                    <li>English-Japanese Translations</li>
-                </h3>
-                <h2 id="contact">Contact me from <a href="mailto:yasuda1.11s@outlook.jp">here</a></h2>
-            </div>ß
-           
+            <article class="role-card">
+              <div class="role-card__logo role-card__logo--metabancho">
+                <img src="images/companies/metabancho-ogp.jpg" alt="株式会社メタバンチョー" style="max-height:none;max-width:100%;height:100%;object-fit:cover;">
+              </div>
+              <div class="role-card__body">
+                <span class="role-card__role">代表取締役 · CEO</span>
+                <span class="role-card__name">株式会社メタバンチョー</span>
+                <span class="role-card__name-en">Meta-Bancho Co. Ltd.</span>
+                <p class="role-card__desc">東京23区を舞台に、実際の土地価格を反映した「人生型」不動産投資シミュレーションゲーム『メタバンチョー』を開発・運営。2025年設立、東京・南青山。</p>
+                <a class="role-card__link" href="https://metabancho.com" target="_blank" rel="noopener">metabancho.com →</a>
+              </div>
+            </article>
+          </div>
+        </div>
 
-        </div><!--contents-->
+        <div class="about__sub reveal">
+          <h3 class="about__sub-title">Jobs</h3>
+          <ul class="pill-list">
+            <li class="pill">CEO / Founder</li>
+            <li class="pill">Artist</li>
+            <li class="pill">Web / Game / Metaverse Programmer</li>
+            <li class="pill">Designer</li>
+            <li class="pill">Art Director</li>
+          </ul>
+        </div>
 
-    </body>
+        <div class="about__sub reveal">
+          <h3 class="about__sub-title">Languages</h3>
+          <ul class="pill-list">
+            <li class="pill">C#</li>
+            <li class="pill">Java</li>
+            <li class="pill">Kotlin</li>
+            <li class="pill">PHP</li>
+            <li class="pill">JavaScript</li>
+            <li class="pill">C++</li>
+            <li class="pill">C</li>
+            <li class="pill">HTML / CSS</li>
+            <li class="pill">日本語</li>
+            <li class="pill">English</li>
+          </ul>
+        </div>
+
+        <div class="about__sub reveal">
+          <h3 class="about__sub-title">Available Jobs</h3>
+          <ul class="pill-list">
+            <li class="pill">Art Direction</li>
+            <li class="pill">Game Creation</li>
+            <li class="pill">Web Creation</li>
+            <li class="pill">Design (any kind)</li>
+            <li class="pill">3D Modeling</li>
+            <li class="pill">English ↔ Japanese Translation</li>
+          </ul>
+        </div>
+
+        <div class="about__sub reveal">
+          <h3 class="about__sub-title">History</h3>
+          <ol class="timeline">
+            <li class="timeline__item"><span class="timeline__year">2016</span><span class="timeline__text">Graduated from Ohori High School / Started learning programming</span></li>
+            <li class="timeline__item"><span class="timeline__year">2017</span><span class="timeline__text">Entered a community college, majoring in Computer Science</span></li>
+            <li class="timeline__item"><span class="timeline__year">2018</span><span class="timeline__text">Started majoring in Mechanical Engineering / Launched 9×9×2 boardgame <em>Atomize</em></span></li>
+            <li class="timeline__item"><span class="timeline__year">2019</span><span class="timeline__text">Started majoring in Art / Co-founded Tripia Inc. as CTO</span></li>
+            <li class="timeline__item"><span class="timeline__year">2020</span><span class="timeline__text">Launched <em>StressBank</em>, an SNS to share stress / Transferred to UC Berkeley</span></li>
+            <li class="timeline__item"><span class="timeline__year">2021</span><span class="timeline__text">Became Art Director for a game company / Exhibition: "Coalescence" at UC Berkeley Worth Ryder Gallery</span></li>
+            <li class="timeline__item"><span class="timeline__year">2022</span><span class="timeline__text">Received Bachelor of Art at UC Berkeley with 4.00 GPA</span></li>
+            <li class="timeline__item"><span class="timeline__year">2023</span><span class="timeline__text">Founded MetaPenta Inc. (Apr 26) — local metaverse app, ShareVerse, and entrusted development</span></li>
+            <li class="timeline__item"><span class="timeline__year">2025</span><span class="timeline__text">Founded Meta-Bancho Co. Ltd. (Jun 6) — "Metabancho", a hyper-real estate investment simulation game</span></li>
+          </ol>
+        </div>
+
+        <div class="about__sub reveal">
+          <h3 class="about__sub-title">Contact</h3>
+          <a class="footer__email" href="mailto:yasuda@metapenta.org">yasuda@metapenta.org</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
 </html>
-<script src="menu.js"></script>
-<script src="spark.js"></script>
